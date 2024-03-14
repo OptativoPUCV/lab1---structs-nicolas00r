@@ -91,3 +91,14 @@ exercises.c:83:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 80a51ae
+Thu 14 Mar 2024 04:54:17 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:82:10: error: ‘numPares’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   82 |   return numPares;
+      |          ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+01f9648
