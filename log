@@ -266,3 +266,23 @@ Thu 14 Mar 2024 08:19:52 PM UTC:
  tests:  0|3
 total_score: 40/70
 3562a38
+Thu 14 Mar 2024 08:28:14 PM UTC: 
+ exercises.c | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:173:29: error: expected ‘)’ before ‘{’ token
+  173 |   if(esAscendente(arr, size)
+      |     ~                       ^
+      |                             )
+  174 |   {
+      |   ~                          
+exercises.c:183:1: error: expected expression before ‘}’ token
+  183 | }
+      | ^
+exercises.c:183:1: error: control reaches end of non-void function [-Werror=return-type]
+  183 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+210edaa
