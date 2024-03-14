@@ -22,3 +22,17 @@ exercises.c:82:10: error: ‘numPares’ may be used uninitialized in this funct
 cc1: all warnings being treated as errors
 Compilation failed
 e179fb3
+Thu 14 Mar 2024 04:42:24 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:82:10: error: returning ‘int’ from a function with return type ‘int *’ makes pointer from integer without a cast [-Werror=int-conversion]
+   82 |   return 3;
+      |          ^
+exercises.c:70:28: error: ‘numPares’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   70 |         numPares = (int *) realloc(numPares, sizeof(int) * (talla + 1));
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+348fac1
