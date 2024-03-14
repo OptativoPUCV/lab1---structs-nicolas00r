@@ -47,3 +47,9 @@ exercises.c:82:10: error: ‘numPares’ may be used uninitialized in this funct
 cc1: all warnings being treated as errors
 Compilation failed
 0fdf264
+Thu 14 Mar 2024 04:47:09 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+550b095
