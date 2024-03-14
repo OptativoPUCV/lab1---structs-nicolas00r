@@ -144,6 +144,9 @@ Descripción: Escribe una función que tome un arreglo y su tamaño,
 y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
   0 si no está ordenado, y -1 si está ordenado en orden descendente.
 */
+
+/* Creo la función esAscendente que permite recorrer el arreglo para verificar si esta ordenado de forma ascendente, retornando false si es que se encuentra un dato que no este ordenado, y retornando true si es que todos los datos estan ordenados
+*/
 bool esAscendente(int arr[], int size)
 {
   for(int i = 0; i < size - 1; i++)
@@ -155,6 +158,9 @@ bool esAscendente(int arr[], int size)
     }
   return true;
 }
+
+/* La función esDescendente funciona de la misma forma que esAscendente pero verificando si es que el arreglo esta ordenado de forma descendente recorriendolo con un ciclo for
+*/
 
 bool esDescendente(int arr[], int size)
 {
