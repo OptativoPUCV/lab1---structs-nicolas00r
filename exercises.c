@@ -145,7 +145,7 @@ y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
 */
 int checkSorted(int arr[], int size)
 {
-
+  return 0;
 }
 
 /*
