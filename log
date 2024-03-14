@@ -304,3 +304,15 @@ Thu 14 Mar 2024 08:41:29 PM UTC:
  tests:  0|2
 total_score: 50/70
 862ee6a
+Thu 14 Mar 2024 08:44:32 PM UTC: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘inicializarLibro’:
+exercises.c:221:33: error: ‘aniooNacimiento’ undeclared (first use in this function); did you mean ‘aniooNacimientoo’?
+  221 |   libro->autor.anioNacimiento = aniooNacimiento;
+      |                                 ^~~~~~~~~~~~~~~
+      |                                 aniooNacimientoo
+exercises.c:221:33: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+449c89e
