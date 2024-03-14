@@ -316,3 +316,9 @@ exercises.c:221:33: error: ‘aniooNacimiento’ undeclared (first use in this f
 exercises.c:221:33: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 449c89e
+Thu 14 Mar 2024 08:44:42 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|2
+total_score: 50/70
+65890e2
