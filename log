@@ -11,3 +11,14 @@ Thu 14 Mar 2024 04:22:16 PM UTC:
  tests:  0|5
 total_score: 20/70
 8b35a96
+Thu 14 Mar 2024 04:36:28 PM UTC: 
+ exercises.c | 24 +++++++++++++++++++++++-
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:82:10: error: ‘numPares’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   82 |   return numPares;
+      |          ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e179fb3
