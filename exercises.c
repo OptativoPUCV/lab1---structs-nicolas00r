@@ -79,7 +79,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
     }
   (*newSize) = talla;
   
-  return numPares;
+  return numPars;
 }
 
 /*
