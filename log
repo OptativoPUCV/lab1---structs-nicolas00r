@@ -209,3 +209,9 @@ Thu 14 Mar 2024 05:16:21 PM UTC:
  tests:  0|4
 total_score: 30/70
 fcb1ca3
+Thu 14 Mar 2024 05:31:36 PM UTC: 
+ exercises.c | 49 ++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 48 insertions(+), 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+f32cd3a
