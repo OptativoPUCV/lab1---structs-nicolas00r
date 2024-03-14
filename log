@@ -124,3 +124,22 @@ exercises.c:82:10: error: ‘numPares’ may be used uninitialized in this funct
 cc1: all warnings being treated as errors
 Compilation failed
 b0138a9
+Thu 14 Mar 2024 04:57:33 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:70:9: error: ‘numPares’ undeclared (first use in this function); did you mean ‘numPar’?
+   70 |         numPares = (int *) realloc(numPares, sizeof(int) * (talla + 1));
+      |         ^~~~~~~~
+      |         numPar
+exercises.c:70:9: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:63:8: error: unused variable ‘numPar’ [-Werror=unused-variable]
+   63 |   int *numPar;
+      |        ^~~~~~
+exercises.c:83:1: error: control reaches end of non-void function [-Werror=return-type]
+   83 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+fff655c
