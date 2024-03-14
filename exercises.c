@@ -170,7 +170,7 @@ bool esDescendente(int arr[], int size)
 
 int checkSorted(int arr[], int size)
 {
-  if(esAscendente(arr, size)
+  if(esAscendente(arr, size))
   {
     return 1;
   } else if (esDescendente(arr, size))
