@@ -207,8 +207,8 @@ typedef struct {
   int anioPublicacion;
 } Libro;
 
-void inicializarLibro(Libro *libro, const char *tituloo, const char *nombreAutor,
-                      int aniooNacimientoo, int aniooPublicacion)
+void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
+                      int anioNacimiento, int anioPublicacion)
 {
   libro = (Libro *) malloc(sizeof(Libro));
   if (libro == NULL)
@@ -216,10 +216,10 @@ void inicializarLibro(Libro *libro, const char *tituloo, const char *nombreAutor
     exit(EXIT_FAILURE);
   }
   
-  strcpy(libro->titulo, tituloo);
-  strcpy(libro->autor.nombre, nombreAutor);
-  libro->autor.anioNacimiento = aniooNacimientoo;
-  libro->anioPublicacion = aniooPublicacion;
+  //strcpy(libro->titulo, titulo);
+  //strcpy(libro->autor.nombre, nombreAutor);
+  libro->autor.anioNacimiento = anioNacimiento;
+  libro->anioPublicacion = anioPublicacion;
 }
 
 /*
