@@ -253,7 +253,8 @@ Nodo *crearListaEnlazada(int arr[], int size)
       if(i == 0)
       {
         cabeza = temp;
-      } else
+      } 
+      else
       {
         actual = (Nodo *) malloc(sizeof(Nodo));
         if (actual == NULL)
