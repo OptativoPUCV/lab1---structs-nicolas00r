@@ -256,11 +256,11 @@ Nodo *crearListaEnlazada(int arr[], int size)
       } 
       else
       {
-        actual = (Nodo *) malloc(sizeof(Nodo));
+        /*actual = (Nodo *) malloc(sizeof(Nodo));
         if (actual == NULL)
         {
           exit(EXIT_FAILURE);
-        }
+        }*/
 
         if(i != (size - 1))
         {
