@@ -257,8 +257,9 @@ Nodo *crearListaEnlazada(int arr[], int size)
       else
       {
         actual->siguiente = temp;
-        actual = temp;
       }
+
+      actual = temp;
     }
   return cabeza; 
 }
