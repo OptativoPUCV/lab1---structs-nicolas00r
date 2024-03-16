@@ -255,6 +255,12 @@ Nodo *crearListaEnlazada(int arr[], int size)
         cabeza = temp;
       } else
       {
+        actual = (Nodo *) malloc(sizeof(Nodo));
+        if (actual == NULL)
+        {
+          exit(EXIT_FAILURE);
+        }
+        
         actual->siguiente = temp;
         actual = temp;
       }
